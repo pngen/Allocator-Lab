@@ -1,0 +1,16 @@
+@PACKAGE_INIT@
+
+# Allocator Lab 1.0.0
+# CMake package config.
+#
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Summon Software Labs
+
+include(CMakeFindDependencyMacro)
+if(@ALLOCATOR_LAB_HAS_CUDA@)
+    find_dependency(CUDAToolkit)
+endif()
+
+include("${CMAKE_CURRENT_LIST_DIR}/AllocatorLabTargets.cmake")
+
+check_required_components(allocator_lab)

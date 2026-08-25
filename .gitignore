@@ -1,0 +1,63 @@
+# Build output
+build/
+out/
+bin/
+obj/
+
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
+.vscode/
+
+# CMake artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# Generated runtime artifacts
+trace_outputs/
+reports/
+*.trace
+*.trace.json
+*.bench
+benchmark_scratch/
+test_scratch/
+
+# Shared-memory / mmap temporary fixtures
+*.shm
+*.mapfile
+test_mmap_*.bin
+test_shm_*
+
+# CUDA generated artifacts
+*.cubic
+*.ptx
+*.fatbin
+*.cu.o
+
+# Coverage / profiling
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+coverage/
+# Scratch outputs from tests / benchmarks / CLI smoke
+out_*.txt
+bench*.txt
+diag*.txt
+ex_out.txt
+*.map
+allocator_lab_example.map
+smoke.trace.json
+al_proof_*
+*.ready.txt
+*.release.txt
+*.meta.txt
+_consumer/
+_install/
