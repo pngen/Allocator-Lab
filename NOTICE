@@ -1,0 +1,18 @@
+Allocator Lab
+
+Copyright © Summon Software Labs
+
+Allocator Lab is an open-source, vendor-neutral laboratory for designing,
+benchmarking, stress-testing, and comparing memory allocators across
+heterogeneous memory domains.
+
+This product is licensed under the Apache License, Version 2.0. See the
+LICENSE file in this distribution for the full license text.
+
+Allocator Lab does not collect or transmit any telemetry. All telemetry is
+written to local files chosen by the operator and never leaves the machine
+running the software.
+
+Allocator Lab accepts contributions from individuals and organizations on the
+terms of the Apache License 2.0 without requiring a Contributor License
+Agreement (CLA). See CONTRIBUTING.md for contribution guidance.
