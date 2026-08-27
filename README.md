@@ -113,4 +113,4 @@ See `docs/` for the design, allocator catalog, workload model, metrics, trace fo
 
 ## License
 
-Apache License 2.0. Copyright 2026 Summon Software Labs.
+Apache License 2.0. Copyright 2026 Summon Software Labs. No telemetry transmission.
