@@ -25,7 +25,6 @@ The test suite lives in `tests/` and is compiled into `allocator-lab-tests`. Run
 - Report granted sizes consistently from `allocate` and `query`.
 - Any new allocator must be thread-safe or explicitly reject concurrent use and document that.
 - Add tests for new allocators: correctness, accounting-to-zero, capacity, alignment, and adversarial patterns.
-- Do not add test timeouts.
 
 ## License
 
